@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 
 import styles from '../styles/Home.module.css'
 
@@ -27,6 +28,9 @@ export default function Origin() {
       </main>
 
       <Footer />
+
+      <Image src="/images/blackcat3.png" alt="blackcat3.png" width={72} height={72} />
+      <Image src="/images/githubcat.png" alt="githubcat.png" width={72} height={72} />
 
     </div>
   )
