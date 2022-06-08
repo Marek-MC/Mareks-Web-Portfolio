@@ -1,29 +1,28 @@
-import "./Navigation.css"
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import Link from 'next/link'
 
 class Navigation extends Component {
   render() {
     return (
 
       <nav id='navigation'>
-
         <ul>
-
           <li>
-            <Link className='navigationLink' to='/'>Home</Link>
+            <Link href="/">
+              <a>Home</a>
+            </Link>
           </li>
-
           <li>
-            <Link className='navigationLink' to='/projects'>Projects</Link>
+            <Link href="/about">
+              <a>About Us</a>
+            </Link>
           </li>
-
           <li>
-            <Link className='navigationLink' to='/extras'>Extra</Link>
+            <Link href="/blog/hello-world">
+              <a>Blog Post</a>
+            </Link>
           </li>
-
         </ul>
-
       </nav>
     )
   }
