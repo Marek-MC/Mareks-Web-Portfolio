@@ -14,12 +14,12 @@ class Navigation extends Component {
           </li>
           <li>
             <Link href="/about">
-              <a>About Us</a>
+              <a>About</a>
             </Link>
           </li>
           <li>
             <Link href="/blog/hello-world">
-              <a>Blog Post</a>
+              <a>link: Link</a>
             </Link>
           </li>
         </ul>

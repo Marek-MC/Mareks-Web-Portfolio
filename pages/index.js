@@ -1,9 +1,11 @@
+import styles from '../styles/Origin.module.css'
+
 import Head from 'next/head'
 import Image from 'next/image'
 
-import styles from '../styles/Home.module.css'
-
 import Home from './home'
+import Projects from './projects'
+import Photography from './photography'
 
 import Header from './components/header'
 import Navigation from './components/navigation'
@@ -19,18 +21,19 @@ export default function Origin() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header />
 
+      <Header className={styles.header}/>
       <Navigation />
 
       <main className={styles.main}>
         <Home />
+        <Projects />
+        <Photography />
       </main>
 
-      <Footer />
+      <Footer className={styles.footer}/>
 
-      <Image src="/images/blackcat3.png" alt="blackcat3.png" width={72} height={72} />
-      <Image src="/images/githubcat.png" alt="githubcat.png" width={72} height={72} />
+      <Image id="blackcat3" src="/images/blackcat3.png" alt="blackcat3.png" width={64} height={64} />
 
     </div>
   )
