@@ -2,7 +2,7 @@ import React, { Component } from "react"
 
 import Navigation from "./components/navigation"
 
-class Home extends Component {
+class Profile extends Component {
 
     render() {
         return (
@@ -10,7 +10,7 @@ class Home extends Component {
 
                 <Navigation />
 
-                <h2>My Home</h2>
+                <h2>Profile</h2>
 
                 <p>Basically your dashboard with all ways to use your data.</p>
                 
@@ -19,4 +19,4 @@ class Home extends Component {
     }
 }
 
-export default Home
+export default Profile

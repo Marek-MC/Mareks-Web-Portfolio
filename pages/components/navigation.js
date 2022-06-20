@@ -24,7 +24,7 @@ class Navigation extends Component {
             </li>
 
             <li>
-              <Link href="/home">Home</Link>
+              <Link href="/profile">Profile</Link>
             </li>
 
             <li>
