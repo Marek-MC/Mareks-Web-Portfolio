@@ -1,3 +1,10 @@
 .origin {
-  background-color: gray;
+  /* justify-content: center; */
+  text-align: center;
+  /* align-items: center; */
 }
+
+.origin main {
+  /* text-align: center; */
+}
+

@@ -19,13 +19,14 @@ a {
 }
 
 a:hover {
-  color: red;
+  color: crimson;
 }
 
 * {
-  box-sizing: border-box;
+
 }
 
 hr {
-  color: aqua;
+  color: springgreen;
+  margin: 0;
 }
