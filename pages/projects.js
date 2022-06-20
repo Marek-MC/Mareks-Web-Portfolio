@@ -1,14 +1,20 @@
 import React, { Component } from "react"
 
+import Navigation from "./components/navigation"
+
 class Projects extends Component {
 
     render() {
         return (
-            <div id="projects">
+            <main>
 
-                <p>Projects</p>
+                <Navigation />
+
+                <h2>Projects</h2>
+
+                <p>Projects undergone by Savtec.</p>
                 
-            </div>
+            </main>
         )
     }
 }

@@ -2,7 +2,7 @@ import React, { Component } from "react"
 
 import Navigation from "./components/navigation"
 
-class Photography extends Component {
+class Extra extends Component {
 
     render() {
         return (
@@ -10,11 +10,11 @@ class Photography extends Component {
 
                 <Navigation />
 
-                <h2>Photography</h2>
+                <h2>Extra</h2>
                 
             </div>
         )
     }
 }
 
-export default Photography
+export default Extra
