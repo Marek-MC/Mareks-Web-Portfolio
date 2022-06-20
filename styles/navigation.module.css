@@ -34,12 +34,17 @@
     position: relative; 
 
     top: 5px;
+    right: 20px;
     vertical-align: middle;
 
     
    
     
 
+}
+
+.navigation ul li:hover {
+    color: crimson;
 }
 
 .navigation ul li {

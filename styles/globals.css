@@ -1,6 +1,6 @@
 html,
 body {
-  color: chartreuse;
+  color: crimson;
   background-color: black;
 
   
@@ -18,15 +18,12 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: crimson;
-}
 
 * {
 
 }
 
 hr {
-  color: springgreen;
+  color: red;
   margin: 0;
 }
